@@ -1,0 +1,106 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+ /* contiene lo sfondo nero opaco, i margini della pagina e il padding  */
+.contorno{
+  margin-top: 5%;
+  margin-right: 15%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 15px 15px 15px 15px;
+
+
+}
+
+ /* contiene le dimensioni e la posizione del logo */
+#LogoLim {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+/* contiene la posizione e le caratteristiche del titolo */
+.titolo{
+  font-family: arial;
+  color: rgb(0, 235, 0);
+  text-align: center;
+  border: 30px;
+
+}
+
+/* contiene la posizione e le caratteristichedella barra di prenotazione */
+.prenotazione{
+
+  text-align: center;
+  background-color: rgb(0, 255, 0);
+
+  margin-right: 10%;
+  margin-left: 10%;
+
+  padding: 1%;
+}
+
+/* contiene le caratteristiche del main e quelle del font  */
+.corpo{
+
+  margin-right: 10%;
+  margin-left: 10%;
+  color: white;
+  font-family: arial;
+
+  line-height: 30px;
+
+}
+
+/* contiene le caratteristiche dei titoli h2 dei nomi dei monopattini */
+.NomiMonopattini{
+
+  display: inline-block;
+  line-height: 0px;
+  padding-top: 20px;
+
+}
+
+
+#StatoCaricaGino {
+
+  border-radius: 5px 5px 5px 5px;
+
+  background-color: orange;
+  width: 40%;
+  height: 15px;
+}
+
+#StatoCaricaMike{
+
+  border-radius: 5px 5px 5px 5px;
+  background-color: green;
+  width: 60%;
+  height: 15px;
+
+}
+
+#StatoCaricaFede{
+
+  border-radius: 5px 5px 5px 5px;
+  background-color: red;
+  width: 25%;
+  height: 15px;
+}
+
+/* contiene le caratteristiche della posizione e del font del footer */
+.CambioPagina{
+  text-align: center;
+  font-family: arial;
+  color: black;
+
+}
